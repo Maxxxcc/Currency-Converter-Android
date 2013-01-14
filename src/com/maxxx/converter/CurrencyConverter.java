@@ -26,10 +26,10 @@ public class CurrencyConverter extends Activity implements OnClickListener {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home);
-        GBP=86.8493;
+        GBP=84.8493;
         EUR=68.0537;
         AUD=57.6325;
-        USD=55.2350;
+        USD=10.2350;
         
         spinner1 = (Spinner) findViewById(R.id.spinner1);
     	spinner2 = (Spinner) findViewById(R.id.spinner2);
